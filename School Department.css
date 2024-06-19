@@ -1,0 +1,415 @@
+body{
+    margin: 0px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.welcome-img {
+    width: 800px;
+    height: 600px;
+    background-image: url(15238404142_535874589f_k.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+h4{
+    color: aliceblue;
+    font-size: large;
+    background: rgba(120, 209, 236, 0.802);
+    box-shadow: 0 4px 4px 0 rgb(82, 81, 81), 0 2px 4px 0 rgb(80, 80, 80);
+    padding: 20px;
+    text-align: center;
+    color: rgb(19, 18, 18);
+    border-radius: 20px;
+    border: 3px solid teal;
+}
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: aliceblue;
+    font-size: large;
+    background: rgba(120, 209, 236, 0.802);
+    box-shadow: 0 4px 4px 0 rgb(82, 81, 81), 0 2px 4px 0 rgb(80, 80, 80);
+    padding: 20px;
+    text-align: center;
+    color: rgb(19, 18, 18);
+    border-radius: 20px;
+    border: 3px solid teal;
+
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    color: rgb(0, 4, 255);
+    
+
+}
+.hello{
+    position: fixed;
+    height: auto;
+    left: 0px;
+    width: 45px;
+}
+h2{
+    text-align: center;
+    font-size: 50px;
+    text-size-adjust: 60;
+    color: #ffffff;
+    
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: hsla(0, 0%, 25%, 0.356);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    position: sticky;
+    top: 20px;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+    font-size: x-large;
+    font-weight: bold;
+    
+}
+.navbar a:hover{
+    background-color: hsla(0, 0%, 10%, 0.425);
+    
+}
+.navbar li{
+    float: right;
+    
+}
+i{
+    font-size: larger;
+}
+.content .text {
+    padding-left: 2cm;
+    padding-right: 2cm;
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+    color: rgb(7, 7, 7);
+    text-align: justify;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/*done at the first part*/
+
+.po{
+    box-shadow: 0 4px 4px 0 rgb(68, 67, 67), 0 5px 8px 0 rgb(59, 58, 58); 
+    width: 280px; 
+    height: 240px; 
+}
+.skul{
+    text-decoration: none;
+    display: block;
+    unicode-bidi: isolate;
+}
+.choose{
+    box-shadow: 0 4px 4px 0 rgb(68, 67, 67), 0 5px 8px 0 rgb(59, 58, 58); 
+    padding-top: 20px;
+    max-width: 280px;
+    display: flex;
+    justify-content: center;
+    height: 36vh;
+}
+.choose a{
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    padding: 0px;
+}
+.choose a{
+    font-family: fantasy;
+    text-shadow: 2px 2px 3px rgb(12, 12, 12);
+    font-size: 20px;
+}
+
+.key{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.choose:hover{
+    padding: 5px;
+    transition: .3s;
+    border-radius: 20px;
+    color: aliceblue;
+    height: 36vh;
+
+}
+.cho1{
+    background-color: rgb(209, 91, 0);
+    position: relative;
+}
+.cho1 .skul{
+    position: absolute;
+    top: 200px;
+    background-color: #050505af;
+    padding: 20px;
+    width: 34.5vh;
+    color:rgb(245, 132, 46);
+}
+.cho1:hover{
+    background-color: rgb(226, 190, 154);
+    border: 3px solid rgb(209, 91, 0);
+}
+.cho1:hover a{
+    color:rgb(209, 91, 0);
+    position: relative;
+}
+.cho1:hover .skul{
+    visibility: visible;
+    position: absolute;
+    top: 180px;
+    background-color: #7b2b00af;
+    padding: 20px;
+    width: 34.5vh;
+}
+.cho2{
+    background-color: rgb(75, 17, 17);
+    position: relative;
+}
+.cho2 .skul{
+    position: absolute;
+    top: 200px;
+    background-color: #050505af;
+    padding: 20px;
+    width: 34.5vh;
+    color:rgb(133, 72, 72);
+    font-weight: bold;
+}
+.cho2:hover{
+    background-color: rgb(226, 154, 154);
+    border: 3px solid rgb(75, 17, 17);
+}
+.cho2:hover a{
+    color:rgb(75, 17, 17);
+    position: relative;
+}
+.cho2:hover .skul{
+    visibility: visible;
+    position: absolute;
+    top: 180px;
+    background-color: #330808af;
+    padding: 20px;
+    width: 34.5vh;
+}
+.cho3{
+    background-color: rgb(6, 24, 126);
+    position: relative;
+}
+
+.cho3 .skul{
+    position: absolute;
+    top: 200px;
+    background-color: #050505af;
+    padding: 20px;
+    width: 34.5vh;
+    color:rgb(104, 121, 248);
+    font-weight: bold;
+}
+.cho3:hover{
+    background-color: rgb(161, 154, 226);
+    border: 3px solid rgb(6, 24, 126);
+}
+.cho3:hover a{
+    color:rgb(6, 24, 126);
+    position: relative;
+}
+.cho3:hover .skul{
+    visibility: visible;
+    position: absolute;
+    top: 180px;
+    background-color: #001affaf;
+    padding: 20px;
+    width: 34.5vh;
+}
+.cho4{
+    background-color: rgb(32, 32, 33);
+    position: relative;
+}
+.cho4 .skul{
+    position: absolute;
+    top: 200px;
+    background-color: #050505af;
+    padding: 20px;
+    width: 34.5vh;
+    color:rgb(126, 126, 126);
+    font-weight: bold;
+    
+}
+.cho4:hover{
+    background-color: rgb(112, 112, 112);
+    border: 3px solid rgb(32, 32, 33);
+}
+.cho4:hover a{
+    color:rgb(32, 32, 33);
+    position: relative;
+}
+.cho4:hover .skul{
+    visibility: visible;
+    position: absolute;
+    top: 180px;
+    background-color: #c9c9c9af;
+    padding: 20px;
+    width: 34.5vh;
+}
+.cho5{
+    background-color: rgb(240, 232, 0);
+    position: relative;
+}
+.cho5 .skul{
+    position: absolute;
+    top: 200px;
+    background-color: #050505af;
+    padding: 20px;
+    width: 34.5vh;
+    color:rgb(255, 223, 41);
+}
+.cho5:hover{
+    background-color: rgb(201, 221, 112);
+    border: 3px solid rgb(240, 232, 0);
+}
+.cho5:hover a{
+    color:rgb(49, 48, 0);
+    position: relative;
+}
+.cho5:hover .skul{
+    visibility: visible;
+    position: absolute;
+    top: 180px;
+    background-color: #647600af;
+    padding: 20px;
+    width: 34.5vh;
+}
+.cho6{
+    background-color: rgb(0, 122, 0);
+    position: relative;
+}
+.cho6 .skul{
+    position: absolute;
+    top: 200px;
+    background-color: #050505af;
+    padding: 20px;
+    width: 34.5vh;
+    color:rgb(1, 255, 1);
+}
+.cho6:hover{
+    background-color: rgb(112, 221, 112);
+    border: 3px solid rgb(0, 122, 0);
+}
+.cho6:hover a{
+    color:rgb(0, 122, 0);
+    position: relative;
+}
+.cho6:hover .skul{
+    visibility: visible;
+    position: absolute;
+    top: 180px;
+    background-color: #226401af;
+    padding: 20px;
+    width: 34.5vh;
+}
+/*Footer*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+}
+footer{
+    background: #343434;
+    padding-top: 50px;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer-content{
+    width: 33.3%;
+}
+h3{
+    font-size: 28px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.footer-content p{
+    width:  190px;
+    margin: auto;
+    padding: 7px;
+}
+.footer-content ul{
+    text-align: center;
+    
+}
+.list{
+    padding: 0;
+}
+.list li{
+    width: auto;
+    text-align: center;
+    list-style-type: none;
+    padding: 7px;
+    position: relative;
+}
+.list li::before{
+    content: '';
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 100%;
+    width: 0;
+    height: 2px;
+    background: #f18930;
+    transition-duration: .5s;
+}
+.list li:hover::before{
+    width: 70px;
+}
+.social-icons{
+    text-align: center;
+    padding: 0;
+}
+.social-icons li{
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+}
+.social-icons i{
+    color: white;
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #f18930;
+}
+.social-icons i:hover{
+    color: #f18930;
+}
+.bottom-bar{
+    background: #f18930;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50px;
+}
+.bottom-bar p{
+    color: #343434;
+    margin: 0;
+    font-size: 16px;
+    padding: 7px;
+}
